@@ -2,9 +2,9 @@
 
 Doctrine integration for [myclabs/php-enum](https://github.com/myclabs/php-enum) via custom Doctrine types.
 
-[![Build Status](https://img.shields.io/travis/PHP-DI/PHP-DI/master.svg?style=flat-square)](https://travis-ci.org/PHP-DI/PHP-DI)
-[![Latest Version](https://img.shields.io/github/release/PHP-DI/PHP-DI.svg?style=flat-square)](https://packagist.org/packages/PHP-DI/php-di)
-[![Total Downloads](https://img.shields.io/packagist/dt/PHP-DI/PHP-DI.svg?style=flat-square)](https://packagist.org/packages/PHP-DI/php-di)
+[![Build Status](https://img.shields.io/travis/mnapoli/enum-doctrine/master.svg?style=flat-square)](https://travis-ci.org/mnapoli/enum-doctrine)
+[![Latest Version](https://img.shields.io/github/release/mnapoli/enum-doctrine.svg?style=flat-square)](https://packagist.org/packages/mnapoli/enum-doctrine)
+[![Total Downloads](https://img.shields.io/packagist/dt/mnapoli/enum-doctrine.svg?style=flat-square)](https://packagist.org/packages/mnapoli/enum-doctrine)
 
 This library helps you store Enums in database using Doctrine via [custom Doctrine types](https://www.doctrine-project.org/projects/doctrine-orm/en/current/cookbook/custom-mapping-types.html). Enums must be defined using [myclabs/php-enum](https://github.com/myclabs/php-enum).
 
