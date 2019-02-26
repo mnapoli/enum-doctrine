@@ -1,0 +1,27 @@
+{
+    "name": "mnapoli/enum-doctrine",
+    "description": "Doctrine integration for myclabs/php-enum via custom types",
+    "keywords": ["enum", "php-enum", "doctrine"],
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Enum\\Doctrine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Enum\\Doctrine\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "myclabs/php-enum": "^1.4",
+        "doctrine/dbal": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mnapoli/hard-mode": "^0.1.1",
+        "mnapoli/pretty": "^1.0"
+    }
+}
